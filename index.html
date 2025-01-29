@@ -1,50 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Palace E-book</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Ebook Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        .hero {
+            background-image: url('hero-image.jpg');
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .book {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .book img {
+            width: 100%;
+            height: auto;
+        }
+
+        .book h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
+
 <body>
-  <!-- Header Section -->
-  <header>
-    <div class="container">
-      <h1>Palace E-book </h1>
-      <img width="750px" src="E-Book.jpg" alt="">
-      <p>An amazing eBook that will change your life</p>
-      <a href="#download" class="btn">Download Now</a>
+    <header>
+        <h1>Welcome to Your Ebook Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h2>Discover the Best Ebooks for Financial Success</h2>
+       <img width="700" src="E-Book.jpg" alt="">
+        <p>Your journey from poverty to affluence starts here.</p>
     </div>
-  </header>
-
-  <!-- About Section -->
-  <section id="about">
     <div class="container">
-      <h2>About the eBook</h2>
-      <p>
-        Welcome to the official website for <strong>Your eBook Title</strong>. This eBook is packed with valuable insights, tips, and strategies to help you achieve your goals. Whether you're a beginner or an expert, this book has something for everyone.
-      </p>
-      <p>
-        Written by <strong>Your Name</strong>, a passionate expert in the field, this eBook is the ultimate guide to success.
-      </p>
+        <h2>Featured Ebooks</h2>
+        <div class="book">
+            <img src="book1.jpg" alt="Book 1">
+            <h3>Book Title 1</h3>
+            <p>Description of book 1 goes here. Learn the secrets to financial success.</p>
+        </div>
+        <div class="book">
+            <img src="book2.jpg" alt="Book 2">
+            <h3>Book Title 2</h3>
+            <p>Description of book 2 goes here. Learn the secrets to financial success.</p>
+        </div>
+        <div class="book">
+            <img src="book3.jpg" alt="Book 3">
+            <h3>Book Title 3</h3>
+            <p>Description of book 3 goes here. Learn the secrets to financial success.</p>
+        </div>
     </div>
-  </section>
-
-  <!-- Download/Purchase Section -->
-  <section id="download">
-    <div class="container">
-      <h2>Get Your Copy Today</h2>
-      <p>Click the button below to download or purchase your copy of the eBook.</p>
-      <a href="#" class="btn">Buy Now</a>
-      <a href="#" class="btn">Download Free Sample</a>
-    </div>
-  </section>
-
-  <!-- Footer Section -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Muralidharan A. All rights reserved.</p>
-    </div>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Your Ebook Website</p>
+    </footer>
 </body>
 </html>
